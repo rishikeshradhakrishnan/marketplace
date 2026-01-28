@@ -1,0 +1,12 @@
+{
+  "name": "codebase-toolkit",
+  "description": "A toolkit for onboarding to new codebases. Includes parallel documentation generation, automated bug hunting, code review capabilities, and activity hooks.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Workshop Participant",
+    "email": "participant@example.com"
+  },
+  "repository": "https://github.com/rishikeshradhakrishnan/marketplace",
+  "license": "MIT",
+  "keywords": ["documentation", "debugging", "code-review", "onboarding"]
+}

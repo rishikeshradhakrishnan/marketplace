@@ -1,0 +1,23 @@
+{
+  "name": "rishikesh-marketplace",
+  "owner": {
+    "name": "Rishikesh Radhakrishnan",
+    "email": "rishikesh@example.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for developer productivity",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "codebase-toolkit",
+      "source": "./plugins/codebase-toolkit",
+      "description": "A toolkit for onboarding to new codebases. Includes parallel documentation, debugging, and code review.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Workshop Participant"
+      },
+      "keywords": ["documentation", "debugging", "code-review", "onboarding"]
+    }
+  ]
+}

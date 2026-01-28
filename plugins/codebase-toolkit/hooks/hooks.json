@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"✅ Task completed at $(date)\" >> ~/.claude/activity.log"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command", 
+            "command": "echo \"📝 File modified: $CLAUDE_TOOL_INPUT\" >> ~/.claude/activity.log"
+          }
+        ]
+      }
+    ]
+  }
+}
